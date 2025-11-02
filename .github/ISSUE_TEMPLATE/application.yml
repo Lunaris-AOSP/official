@@ -1,0 +1,79 @@
+name: Maintainership Application
+description: Submit this form to apply as an official Lunaris AOSP maintainer.
+title: "[Maintainer Application] <Your Device Name>"
+labels: ["maintainership", "application"]
+assignees: [GHOST, Arijit, Sanji]
+
+body:
+  - type: input
+    attributes:
+      label: 📱 Device Name
+      description: "Example: POCO F5 (marble)"
+      placeholder: "Enter your device codename and model"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🧩 Device Tree Sources
+      description: "Provide links to your device sources (one URL per line)."
+      placeholder: |
+        https://github.com/username/device_xiaomi_marble
+        https://github.com/username/vendor_xiaomi_marble
+        https://github.com/username/kernel_xiaomi_marble
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 📦 ROMs You Maintain
+      description: "List the ROM(s) you maintain and specify whether they are official or unofficial."
+      placeholder: "Example: AxionOS (Official), Infinity X (Unofficial)"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 🌙 Link to Lunaris AOSP Unofficial Build
+      description: "Provide a link to one of your released Lunaris AOSP unofficial builds (e.g., Telegram, XDA, etc.)."
+      placeholder: "https://t.me/yourreleasepost"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🐞 Build Bugs (if any)
+      description: "List known issues or bugs currently present in your build, if applicable."
+      placeholder: "Example: SafetyNet not passing, NFC crash on boot, etc."
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 🧠 Building Experience
+      description: "Mention how long you have been building ROMs (in years or months)."
+      placeholder: "Example: 1 year 6 months"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: ⚠️ Exceptions / Special Concerns
+      description: "Mention any exceptions, special requests, or additional information."
+      placeholder: "Optional – leave blank if none."
+
+  - type: input
+    attributes:
+      label: 💬 Contact Information
+      description: "Provide your Telegram username or another preferred contact method."
+      placeholder: "@yourusername"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 🧑‍💻 GitHub Username
+      description: "Enter your GitHub handle."
+      placeholder: "githubusername"
+    validations:
+      required: true

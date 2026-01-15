@@ -1,15 +1,20 @@
 name: Maintainership Application
 description: Submit this form to apply as an official Lunaris AOSP maintainer.
-title: "[Maintainer Application] <Your Device Name>"
-labels: ["maintainership", "application"]
-assignees: [GHOST, Arijit, Sanji]
+title: "[Maintainer Application] OnePlus Nord CE 3 Lite / Nord N30 5G (larry)"
+labels:
+  - maintainership
+  - application
+assignees:
+  - GHOST
+  - Arijit
+  - Sanji
 
 body:
   - type: input
     attributes:
       label: 📱 Device Name
       description: "Example: POCO F5 (marble)"
-      placeholder: "Enter your device codename and model"
+      value: "OnePlus Nord CE 3 Lite / Nord N30 5G (larry)"
     validations:
       required: true
 
@@ -18,9 +23,12 @@ body:
       label: 🧩 Device Tree Sources
       description: "Provide links to your device sources (one URL per line)."
       placeholder: |
-        https://github.com/username/device_xiaomi_marble
-        https://github.com/username/vendor_xiaomi_marble
-        https://github.com/username/kernel_xiaomi_marble
+        https://github.com/ViaanLarryROMS/android_device_oneplus_larry
+        https://github.com/ViaanLarryROMS/android_device_sm6375-common
+        https://github.com/ViaanLarryROMS/proprietary_vendor_oneplus_larry
+        https://github.com/ViaanLarryROMS/proprietary_vendor_sm6375-common
+        https://github.com/ViaanLarryROMS/android_kernel_oneplus_sm6375
+        https://github.com/ViaanLarryROMS/android_hardware_oplus
     validations:
       required: true
 
@@ -28,7 +36,7 @@ body:
     attributes:
       label: 📦 ROMs You Maintain
       description: "List the ROM(s) you maintain and specify whether they are official or unofficial."
-      placeholder: "Example: AxionOS (Official), Infinity X (Unofficial)"
+      value: "EvolutionX (Unofficial), crDroid (Unofficial), OrionOS (Unofficial)"
     validations:
       required: true
 
@@ -36,7 +44,7 @@ body:
     attributes:
       label: 🌙 Link to Lunaris AOSP Unofficial Build
       description: "Provide a link to one of your released Lunaris AOSP unofficial builds (e.g., Telegram, XDA, etc.)."
-      placeholder: "https://t.me/yourreleasepost"
+      value: "https://xdaforums.com/t/unofficial-rom-16-lunarisaosp-for-the-nord-ce-3-lite-nord-n30.4775619/"
     validations:
       required: true
 
@@ -44,7 +52,7 @@ body:
     attributes:
       label: 🐞 Build Bugs (if any)
       description: "List known issues or bugs currently present in your build, if applicable."
-      placeholder: "Example: SafetyNet not passing, NFC crash on boot, etc."
+      placeholder: "Minor IMS quirks; otherwise daily-driver usable."
     validations:
       required: false
 
@@ -52,7 +60,7 @@ body:
     attributes:
       label: 🧠 Building Experience
       description: "Mention how long you have been building ROMs (in years or months)."
-      placeholder: "Example: 1 year 6 months"
+      value: "7 months"
     validations:
       required: true
 
@@ -60,13 +68,13 @@ body:
     attributes:
       label: ⚠️ Exceptions / Special Concerns
       description: "Mention any exceptions, special requests, or additional information."
-      placeholder: "Optional – leave blank if none."
+      placeholder: "Maintains unified sm6375-common trees for Nord CE 3 Lite / Nord N30"
 
   - type: input
     attributes:
       label: 💬 Contact Information
       description: "Provide your Telegram username or another preferred contact method."
-      placeholder: "@yourusername"
+      value: "@VIAAN_THAKUR"
     validations:
       required: true
 
@@ -74,6 +82,6 @@ body:
     attributes:
       label: 🧑‍💻 GitHub Username
       description: "Enter your GitHub handle."
-      placeholder: "githubusername"
+      value: "ViaanLarryROMS"
     validations:
       required: true

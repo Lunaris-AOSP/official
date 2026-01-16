@@ -6,7 +6,8 @@
 ## 1. Eligibility
 
 - To become an official Lunaris OS maintainer, you must:
-- Have experience maintaining at least 2 other ROMs, with Lunaris OS being your third.
+- Have experience maintaining at least 2 other ROMs and atleast 8 months, with Lunaris OS being your third.
+- Have at least 10 months of ROM build experience or a GitHub account that is 1 year old
 - Be comfortable with building from source, resolving compilation errors, and troubleshooting device-specific issues.
 - Have a solid understanding of Git, Android build system, and device tree structure.
 
@@ -50,3 +51,4 @@ Maintainers must ensure:
 ---
 
 **Thank you for your dedication to Lunaris OS!**
+
